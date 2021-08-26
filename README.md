@@ -1,4 +1,7 @@
 # crop-yield-predection
+<img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-predection/main/nb_bg.png"/>
+<br>
+ce projet s'inscrit dans le cadre d'un satge
 ## Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb) :
   > * #### 1. Data preparation & exploration <space><space>
   > * #### 2. Prediction des Temperatures  <space><space>
