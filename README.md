@@ -6,15 +6,15 @@ Ce projet s'inscrit dans le cadre d'un satge
 
 
 ## Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb) :
-  > * #### 1. Data preparation & exploration <space><space>
-  > * #### 2. Prediction des Temperatures  <space><space>
-   >>> * SARIMA <space><space><space><space>
-  > * #### 3. Prediction des précipétations <space><space>
-   >>>  * ARIMA <space><space><space><space>
-   >>>  * LSTM <space><space><space><space>
-  > * #### 4. prédiction du rendement agricole <space><space>
-   >>> * Vector auto-regressive model - VAR <space><space><space><space>
-   >>> * Multiple linear regression <space><space><space><space>
+  > * ##### 1. Data preparation & exploration <space><space>
+  > * ##### 2. Prediction des Temperatures  <space><space>
+   >>> * ###### SARIMA <space><space><space><space>
+  > * ##### 3. Prediction des précipétations <space><space>
+   >>>  * ###### ARIMA <space><space><space><space>
+   >>>  * ###### LSTM <space><space><space><space>
+  > * ##### 4. prédiction du rendement agricole <space><space>
+   >>> * ###### Vector auto-regressive model - VAR <space><space><space><space>
+   >>> * ###### Multiple linear regression <space><space><space><space>
   
 
 
