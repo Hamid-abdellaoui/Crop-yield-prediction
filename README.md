@@ -13,7 +13,7 @@ Ce projet s'inscrit dans le cadre d'un satge
 
 
 
-## pour plus de détailes sur les théories derière les modèles et les techniques utilisés [consulter ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
+### Pour plus de détailes sur les théories derière les modèles et les techniques utilisés [consulter ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
   
 
   
