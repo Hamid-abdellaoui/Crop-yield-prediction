@@ -1,4 +1,4 @@
-# Crop yield-predection project
+# Crop yield predection project
 <img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-predection/main/nb_bg.png"/>
 
 Ce projet s'inscrit dans le cadre d'un satge
@@ -74,3 +74,9 @@ Dans le modèle VAR, chaque variable est modélisée comme une combinaison liné
   <br>
 Par exemple, le système d'équations d'un modèle VAR(1) avec deux séries temporelles (variables « Y1 » et « Y2 ») est le suivant :
   <p><img src='https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR1_Model-min.png?ezimgfmt=ng:webp/ngcb4'  width=400/></p>
+
+ <br>
+ 
+  
+### Réferences :
+#### - Data ressources : <a href="https://meteostat.net/fr/place/MA-ESIT?t=2021-08-16/2021-08-22">Meteostat </a>
