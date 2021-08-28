@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop yield predection project</title>
+</head>
+<body>
+      
+    
+    <img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-predection/main/nb_bg.png" class="centerd" style="width: 98vw; margin: 0.5vw"/>
+
+    <center style="font-size: 27px; font-weight: bolder;">Théories derière les modèles et les techniques utilisés</center>
+    <center style="font-size: 10px;">Kliquer sur les accordions suivants pour afficher le contenue</center>
+    <div class="accordion" id="accordionExample">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <font color='#03d7fc' size=3>▶ Regression Linéaire </font>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+La régression linéaire multiple fait référence à une technique statistique qui utilise deux ou plusieurs variables indépendantes pour prédire le résultat d'une variable dépendante.
+La technique permet aux analystes de déterminer la variation du modèle et la contribution relative de chaque variable indépendante dans la variance totale.
+La régression multiple peut prendre deux formes, c'est-à-dire la régression linéaire et la régression non linéaire. <br>
+<img src='https://cdn.corporatefinanceinstitute.com/assets/multiple-linear-regression1-600x67.png' width=350/> <br>
+
+  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <font color='#03d7fc' size=3>▶ Modèle Auto-Régressif (AR)</font>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+                Les modèles auto-régressifs fonctionnent en partant du principe que les valeurs passées ont un effet sur les valeurs actuelles. Les modèles AR sont couramment utilisés pour analyser la nature, l’économie et d’autres processus variables dans le temps. Tant que l’hypothèse tient, nous pouvons construire un modèle de régression linéaire qui tente de prédire aujourd’hui la valeur d’une variable dépendante, compte tenu des valeurs qu’elle avait les jours précédents. <br>
+                <img src='https://assets.moncoachdata.com/v7/moncoachdata.com/wp-content/uploads/2020/01/modele-ar.png?w=350'/> <br>
+                            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <font color='#03d7fc' size=3>▶ Modèle de la Moyenne Mobile (MA)</font>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Supposez que la valeur de la variable dépendante du jour en cours dépend des termes d’erreur des jours précédents. La formule peut être exprimée sous cette forme :<br>
+                <img src='https://assets.moncoachdata.com/v7/moncoachdata.com/wp-content/uploads/2020/01/modele-moyenne-mobile-formule1.png?w=350'/> <br>
+                où μ est la moyenne de la série, les θ1, …, θq sont les paramètres du modèle et les εt, εt-1,…, εt-q sont les termes d’erreur de bruit. La valeur de q est appelée l’ordre du modèle MA. <br> 
+            </div>
+            </div>
+          </div>
+ 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                <font color='#03d7fc' size=3>▶ Modèle de la Moyenne Mobile Auto-Régressive (ARMA)</font>
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                Le modèle ARMA est simplement la combinaison des 2 précédents modèles AR et MA : <br>
+                <img src='https://assets.moncoachdata.com/v7/moncoachdata.com/wp-content/uploads/2020/01/formule-modele-arma.png?w=350'/> <br>              </div>
+            </div>
+          </div>
+        
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfife">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefife" aria-expanded="false" aria-controls="collapsefife">
+                <font color='#03d7fc' size=3>▶ Modèle de la Moyenne Mobile Auto-Régressive Intégrée (ARIMA) </font>
+              </button>
+            </h2>
+            <div id="collapsefife" class="accordion-collapse collapse" aria-labelledby="headingfife" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                Le modèle ARIMA ajoute une différence à un modèle ARMA. La différenciation soustrait la valeur actuelle de la précédente et peut être utilisée pour transformer une série temporelle en une série stationnaire. Par exemple, la différenciation du premier ordre traite des tendances linéaires et utilise la transformation zi = yi – yi-1. <br>
+                La différenciation du second ordre traite des tendances quadratiques et utilise une différence du premier ordre sur une différence du premier ordre, à savoir zi = (yi – yi-1) – (yi-1 – yi-2), et ainsi de suite. <br>
+                
+                Trois entiers (p, d, q) sont généralement utilisés pour paramétrer les modèles ARIMA : <br>
+                <b>
+                - p : nombre de termes autorégressifs (ordre AR) <br>
+                - d : nombre de différences non saisonnières (ordre de différenciation)<br>
+                - q : nombre de termes moyens mobiles (ordre MA)</b><br>
+                 <br>              </div>
+            </div>
+          </div>
+     
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingsix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                <font color='#03d7fc' size=3> ▶ Modèle SARIMA: Seasonal ARIMA </font>
+              </button>
+            </h2>
+            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                SARIMA: Seasonal ARIMA ou ARIMA saisonnier est une extension du modèle ARIMA. <br>
+                <img src='https://miro.medium.com/max/1400/0*hTDJbnnbhS3SDJvc.png' width=350/> <br>
+                Il permet de modéliser les séries temporelles comportant une composante saisonnière et désigné par 7 paramètres : <br>
+                <b>
+                * p, d, q : les même que ceux de ARIMA.
+                * P : ordre de la partie autorégressive saisonnière.
+                * D : ordre de la différence saisonnière.
+                * Q : ordre de la moyenne mobile saisonnière.
+                * m : la période de la composante saisonnière. <b> <br>
+                
+                
+                <img src='https://i.stack.imgur.com/NUA6V.png'  width=350/>
+                <br><br>
+                <br>
+                                </div>
+            </div>
+          </div>
+                  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingseven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                <font color='#03d7fc' size=3>▶ Modèle vector Auto-Regression (VAR)</font>
+              </button>
+            </h2>
+            <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                Dans le modèle VAR, chaque variable est modélisée comme une combinaison linéaire de valeurs passées d'elle-même et des valeurs passées d'autres variables du système . Étant donné que vous avez plusieurs séries temporelles qui s'influencent mutuellement, elles sont modélisées comme un système d'équations avec une équation par variable (série temporelle).
+                <br>
+              Par exemple, le système d'équations d'un modèle VAR(1) avec deux séries temporelles (variables « Y1 » et « Y2 ») est le suivant :
+                <p><img src='https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR1_Model-min.png?ezimgfmt=ng:webp/ngcb4'  width=350/></p>
+              
+               <br>
+                             </div>
+            </div>
+          </div>
+                                            
+      </div>
+
+      <br> <br>
+
+      <div style="padding-left: 10px;">
+        ◼️ Les codes et leurs outputs ainsi que des commentaires et des résultats sont dans ce <a href="https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb">notebook</a>
+      </div><br>
+      <div style="padding-left: 10px;">
+        ◼️ Références : <br>
+        <div style="font-size: 15px; font-weight: normal;">
+            &MediumSpace; &MediumSpace; &MediumSpace; &MediumSpace;- Data ressources : <a href="https://meteostat.net/fr/place/MA-ESIT?t=2021-08-16/2021-08-22">Meteostat</a>, Direction de la stratégie et statistiques (ministre d'agriculture)<br>
+            &MediumSpace; &MediumSpace; &MediumSpace; &MediumSpace;- Documentation des libraireies de python :  <a href="https://www.statsmodels.org/dev/vector_ar.html">statsmodels</a>, <a href="https://pandas.pydata.org/docs/">Pandas</a>,
+            <a href="https://scikit-learn.org/stable/tutorial/index.html">scikit-learn</a>, <a href="http://alkaline-ml.com/pmdarima/">pmdarima</a> <br>
+            &MediumSpace; &MediumSpace; &MediumSpace; &MediumSpace;- Cours magistraux de séries chronologiques et régression linéaire. <br>
+            &MediumSpace; &MediumSpace; &MediumSpace; &MediumSpace;- Articles en web <a href="https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/">LSTM Models for Time Series -MACHINGLEARNING MASTERY</a>,
+             <a href="https://medium.com/analytics-vidhya/time-series-forecasting-sarima-vs-auto-arima-models-f95e76d71d8f">Time series forecasting- SARIMA vs Auto ARIMA models -Medium</a>
+        </div>
+      </div>
+<br>
+<br> <div class="text-center" style="font-size: 10px;">all rights reserved | Hamid abdellaoui</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
