@@ -23,7 +23,7 @@ Note: Ce projet s'inscrit dans le cadre d'un satge
 
   
 ### ✔️ Références : <br>
-- Data ressources : <a href="https://meteostat.net/fr/place/MA-ESIT?t=2021-08-16/2021-08-22">Meteostat</a>, Direction de la stratégie et statistiques (ministre d'agriculture)<br>
+- Data ressources : <a href="https://meteostat.net/fr/place/MA-ESIT?t=2021-08-16/2021-08-22">Meteostat</a>, Direction de la stratégie et statistiques (Ministère de l'agriculture)<br>
 - Documentation des libraireies de python :  <a href="https://www.statsmodels.org/dev/vector_ar.html">statsmodels</a>, <a href="https://pandas.pydata.org/docs/">Pandas</a>,
             <a href="https://scikit-learn.org/stable/tutorial/index.html">scikit-learn</a>, <a href="http://alkaline-ml.com/pmdarima/">pmdarima</a> <br>
  - Cours magistraux de séries chronologiques et régression linéaire. <br>
