@@ -18,7 +18,7 @@ Note: Ce projet s'inscrit dans le cadre d'un satge
   > - Historique météorologique de 30 années contenant les températures les précipitations quotidiens [daily 30 years.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/Daily%2030%20years.csv) <br>
  > - Production annuel de blé tendre de 30 années dernières [bt.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/bt.csv)<br>
 
-  - Des explications simples et claires mais précises sur les théories derière les modèles et les techniques utilisés [sont ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
+  - Des explications simples et claires mais précises sur les théories derière les modèles et les techniques utilisés dans ce projet [sont ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
   
 
   
