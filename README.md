@@ -1,11 +1,11 @@
 # Crop yield predection project
 <img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-predection/main/nb_bg.png"/>
 
-Ce projet s'inscrit dans le cadre d'un satge
+Note: Ce projet s'inscrit dans le cadre d'un satge
   <br>
 
 
-## Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb) :
+### ✔️ Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb) :
   > * ##### 1. Data preparation & exploration <space><space>
   > * ##### 2. Prediction des Temperatures  (SARIMA)<space><space>
   > * ##### 3. Prediction des précipétations (ARIMA, LSTM) <space><space>
@@ -13,11 +13,15 @@ Ce projet s'inscrit dans le cadre d'un satge
 
 
 
-### Pour plus de détailes sur les théories derière les modèles et les techniques utilisés [consulter ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
+### ✔️ Plus de détails
+ - Les données utilisées : <br> >> historique météorologique de 30 années contenant les températures les précipitations quotidiens [daily 30 years.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/Daily%2030%20years.csv) <br>
+ >> production annuel de blé tendre de 30 années dernières [bt.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/bt.csv)<br>
+
+  - Des explications simples et claires mais précises sur les théories derière les modèles et les techniques utilisés [sont ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
   
 
   
-### ◼️ Références : <br>
+### ✔️ Références : <br>
 - Data ressources : <a href="https://meteostat.net/fr/place/MA-ESIT?t=2021-08-16/2021-08-22">Meteostat</a>, Direction de la stratégie et statistiques (ministre d'agriculture)<br>
 - Documentation des libraireies de python :  <a href="https://www.statsmodels.org/dev/vector_ar.html">statsmodels</a>, <a href="https://pandas.pydata.org/docs/">Pandas</a>,
             <a href="https://scikit-learn.org/stable/tutorial/index.html">scikit-learn</a>, <a href="http://alkaline-ml.com/pmdarima/">pmdarima</a> <br>
