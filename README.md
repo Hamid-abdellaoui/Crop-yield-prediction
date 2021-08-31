@@ -5,7 +5,7 @@ Note: Ce projet s'inscrit dans le cadre d'un satge
   <br>
 
 
-### ✔️ Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-predection/blob/main/croprediction.ipynb) :
+### ✔️ Contenue du [nootebook](https://github.com/Hamid-abdellaoui/crop-yield-prediction/blob/main/croprediction.ipynb) :
   > * ##### 1. Data preparation & exploration <space><space>
   > * ##### 2. Prediction des Temperatures  (SARIMA)<space><space>
   > * ##### 3. Prediction des précipétations (ARIMA, LSTM) <space><space>
