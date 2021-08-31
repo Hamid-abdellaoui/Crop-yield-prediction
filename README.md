@@ -1,5 +1,5 @@
-# Crop yield predection project
-<img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-predection/main/nb_bg.png"/>
+# Crop yield prediction project
+<img src="https://raw.githubusercontent.com/Hamid-abdellaoui/crop-yield-prediction/main/nb_bg.png"/>
 
 Note: Ce projet s'inscrit dans le cadre d'un satge
   <br>
@@ -15,10 +15,10 @@ Note: Ce projet s'inscrit dans le cadre d'un satge
 
 ### ✔️ Plus de détails
  - Les données utilisées : <br> 
-  > - Historique météorologique de 30 années contenant les températures les précipitations quotidiens [daily 30 years.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/Daily%2030%20years.csv) <br>
- > - Production annuel de blé tendre de 30 années dernières [bt.csv](https://github.com/Hamid-abdellaoui/Crop-yield-predection/blob/main/bt.csv)<br>
+  > - Historique météorologique de 30 années contenant les températures les précipitations quotidiens [daily 30 years.csv](https://github.com/Hamid-abdellaoui/Crop-yield-prediction/blob/main/Daily%2030%20years.csv) <br>
+ > - Production annuel de blé tendre de 30 années dernières [bt.csv](https://github.com/Hamid-abdellaoui/Crop-yield-prediction/blob/main/bt.csv)<br>
 
-  - Des explications simples et claires mais précises sur les théories derière les modèles et les techniques utilisés dans ce projet [sont ici](https://hamid-abdellaoui.github.io/Crop-yield-predection/)
+  - Des explications simples et claires mais précises sur les théories derière les modèles et les techniques utilisés dans ce projet [sont ici](https://hamid-abdellaoui.github.io/Crop-yield-prediction/)
   
 
   
